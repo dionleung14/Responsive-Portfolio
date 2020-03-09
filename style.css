@@ -1,5 +1,36 @@
-/* body {
-    background-color: salmon;
-} */
+body {
+    background-image: url("photos/light.jpg");
+}
 
-@media 
+.container {
+    background-color: #f3f3f3;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: green;
+    }
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+    
+    .container {
+        width: 630px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: purple;
+    }
+
+    .container {
+        width: 500px;
+    }
+}
