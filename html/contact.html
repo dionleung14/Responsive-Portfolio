@@ -11,8 +11,13 @@
     <h1>This is my contact.html file (remove this heading)</h1>
    
     <div class="container">
+        <!-- Navbar -->
         <div class="row">
-            <div class="col-12">
+            <!-- Empty column for spacing -->
+            <div class="col-1">
+            </div>
+            <!-- Navbar content -->
+            <div class="col-10">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <h1>Dion Leung</h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,49 +32,88 @@
                     </div>
                   </nav>
             </div>
+            <!-- Empty column for spacing -->
+            <div class="col-1">
+            </div>
         </div>
-    </div>
 
-      <div class="container">
+        <!-- About me section -->
         <div class="row">
+            <!-- Empty column for spacing -->
+            <div class="col-1">
+            </div>
+            <!-- Short blurb -->
             <div class="col-7">
                 <h3>Hit me up!</h3>
                 <p>Have any questions? Want to collaborate together? Secretly dying to know my favorite song? Send me a secure message below and I'll get back to you as soon as I can!</p>
             </div>
-        </div>
+            <!-- Empty column for spacing -->
+            <div class="col-4">
+            </div>
+        </div> 
+        
+        <!-- Form -->
         <div class="row">
-            <div class="col-12">
+            <!-- Empty column for spacing -->
+            <div class="col-1">
+            </div>
+            <!-- Form column -->
+            <div class="col-10">
                 <form>
-                    <div class="form-group">
-                        <label for="viewerName">Name</label>
-                        <input type="name" class="form-control" id="viewerName">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail">Email address</label>
-                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
-                    </div>
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="phonenumber" class="form-control" id="phoneNumber">
-                    <label for="message">Message</label>
-                    <input type="message" class="form-control" id="message">
+                    <!-- Name, Email, and phone number -->
                     <div class="row">
-                        <div class="col-6">
-                            <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="phoneContact">
-                            <label class="form-check-label" for="phoneContact">I prefer getting a call/text!</label>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="viewerName">Name</label>
+                                <input type="name" class="form-control" id="viewerName">
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-5">
+                            <div class="form-group">
+                                <label for="inputEmail">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="phonenumber" class="form-control" id="phoneNumber">
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="message">Message</label>
+                            <input type="message" class="form-control" id="message">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="phoneCall">
+                                <label class="form-check-label" for="phoneCall">I prefer getting a call!</label>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <input type="checkbox" class="form-check-input" id="phoneMessage">
+                            <label class="form-check-label" for="phoneMessage">I prefer getting a text!</label>
+                        </div>  
+                        <div class="col-4">
                             <input type="checkbox" class="form-check-input" id="emailContact">
                             <label class="form-check-label" for="emailContact">I prefer getting an email!</label>
                         </div>  
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-      </div>
+    </div>
+    
       
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
