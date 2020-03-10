@@ -32,4 +32,9 @@ body {
     .navbar-collapse .navbar-nav .nav-link {
         padding-left: 1rem;
     }
+/* targets the portfolio thumbnails to center align at 640px, not working */
+    #portfolio-thumbnails div img {
+        flex-direction: column;
+        align-items: center;
+    }
 }
