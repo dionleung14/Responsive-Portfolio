@@ -1,15 +1,16 @@
-/* body {
+body {
     background-image: url("photos/light.jpg");
-} */
-
-.container {
-    background-color: #f3f3f3;
 }
 
+.container {
+    background-color: #f1f1f1;
+}
+/* 
+.container .float-left {
+    margin: 1em;
+} */
+
 @media screen and (max-width: 767px) {
-    body {
-        background-color: green;
-    }
     .navbar {
         flex-direction: column;
     }
@@ -24,13 +25,8 @@
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        background-color: purple;
-    }
-
     .navbar {
         flex-direction: column;
-        /* justify-content: center; */
     }
 
     .navbar-collapse .navbar-nav .nav-link {
