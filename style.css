@@ -1,6 +1,6 @@
-body {
+/* body {
     background-image: url("photos/light.jpg");
-}
+} */
 
 .container {
     background-color: #f3f3f3;
@@ -10,7 +10,7 @@ body {
     body {
         background-color: green;
     }
-    .container {
+    .container-980 {
         width: 750px;
     }
 }
@@ -20,9 +20,9 @@ body {
         background-color: red;
     }
     
-    .container {
+    /* .container-768 {
         width: 630px;
-    }
+    } */
 }
 
 @media screen and (max-width: 640px) {
@@ -30,7 +30,13 @@ body {
         background-color: purple;
     }
 
-    .container {
+    /* .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+
+    .container-640 {
         width: 500px;
     }
 }
