@@ -10,6 +10,29 @@ body {
     margin: 1em;
 } */
 
+.img-thumbnail-DCL {
+    /* border: 2px blue solid; */
+}
+
+.thumbnail-container-DCL {
+    /* border: 1px red solid; */
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: inline;
+}
+
+.thumbnail-container-DCL p {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    /* display: flex;
+    align-items: center; */
+    color: blue;
+    background-color: gray;
+}
+
+
 @media screen and (max-width: 767px) {
     .navbar {
         flex-direction: column;
