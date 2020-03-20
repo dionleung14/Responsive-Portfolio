@@ -10,8 +10,17 @@ body {
     margin: 1em;
 } */
 
+.thumbnails-DCL {
+    display: flex;
+    justify-items: space-around;
+    flex-wrap: wrap;
+    /* align-content: wrap; */
+}
+
 .img-thumbnail-DCL {
     /* border: 2px blue solid; */
+    width: 250px;
+    height: 250px;
 }
 
 .thumbnail-container-DCL {
@@ -19,17 +28,19 @@ body {
     width: 250px;
     height: 250px;
     position: relative;
-    display: inline;
+    /* display: inline; */
 }
 
-.thumbnail-container-DCL p {
+.thumbnail-label-DCL {
     position: absolute;
     right: 10px;
-    top: 10px;
+    bottom: 10px;
     /* display: flex;
     align-items: center; */
     color: blue;
     background-color: gray;
+    display: none;
+    transition: all .9s ease-in-out;
 }
 
 
