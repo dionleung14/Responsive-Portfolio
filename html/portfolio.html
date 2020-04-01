@@ -46,16 +46,43 @@
     <!-- Portfolio thumbnails -->
     <div class="row p-4" id="portfolio-thumbnails">
       <div class="col-12 p-4 thumbnails-DCL">
+
+
+
         <div class="thumbnail-container-DCL">
-          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/ScratchCat.png" alt="thumbnail">
-          <p class="thumbnail-label-DCL"><a class="thumbnail-label-link-DCL" href="https://scratch.mit.edu/users/NAFlipper/" target="_blank">Scratch projects!</a></p>
+          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/pogo-pokestop.png" alt="thumbnail">
+          <button type="button" class="btn btn-primary thumbnail-label-DCL" data-toggle="modal" data-target="#PokeGoDexModal">More details</button>
+          <!-- <p class="thumbnail-label-DCL"><a class="thumbnail-label-link-DCL" href="https://dionleung14.github.io/Pokemon-GO-Virtual-Dex/" target="_blank">Pokemon GO Availabilty Checker</a></p> -->
         </div>
+        <div class="modal fade" id="#PokeGoDexModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
         <div class="thumbnail-container-DCL">
-          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/lock.jpg" alt="thumbnail">
+          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/lock.png" alt="thumbnail">
           <p class="thumbnail-label-DCL"><a class="thumbnail-label-link-DCL" href="https://dionleung14.github.io/Password-Generator/" target="_blank">Password Generator</a></p>
         </div>
         <div class="thumbnail-container-DCL">
-          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/pokeball.jpg" alt="thumbnail">
+          <img class="img-fluid img-thumbnail img-thumbnail-DCL " src="../photos/Portfolio thumbnails/pokeball.jpg" alt="thumbnail">
           <a class="thumbnail-label-DCL" href="https://dionleung14.github.io/Timed-Quiz/" target="_blank">
             <p>Pokemon Quiz</p>
           </a>
@@ -67,16 +94,14 @@
           </a>
         </div>
         <div class="thumbnail-container-DCL">
-          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="https://place-hold.it/250" alt="thumbnail">
-          <a class="thumbnail-label-DCL">
-            <p>Test</p>
+          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/weather-icon.png" alt="thumbnail">
+          <a class="thumbnail-label-DCL" href="https://dionleung14.github.io/Weather-Dashboard/" target="_blank">
+            <p>Weather Dashboard</p>
           </a>
         </div>
         <div class="thumbnail-container-DCL">
-          <img class="img-fluid img-thumbnail img-thumbnail-DCL img-thumbnail-DCL" src="https://place-hold.it/250" alt="thumbnail">
-          <a class="thumbnail-label-DCL">
-            <p>Test</p>
-          </a>
+          <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="../photos/Portfolio thumbnails/ScratchCat.png" alt="thumbnail">
+          <p class="thumbnail-label-DCL"><a class="thumbnail-label-link-DCL" href="https://scratch.mit.edu/users/NAFlipper/" target="_blank">Scratch projects!</a></p>
         </div>
         <div class="thumbnail-container-DCL">
           <img class="img-fluid img-thumbnail img-thumbnail-DCL" src="https://place-hold.it/250" alt="thumbnail">
@@ -91,9 +116,39 @@
           </a>
         </div>
 
+
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Add bootstrap cards? add bootstrap collapses for more descriptions? on each project page, add a link back to the portfolio!!! -->
 
   <!-- Bootstrap javascript -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
