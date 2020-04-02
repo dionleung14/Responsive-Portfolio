@@ -40,8 +40,12 @@ body {
     display: none;
 }
 
-.LI-profile-badge, .LI-simple-link {
-    width: 10%;
+/* .modal-content-DCL {
+    width: 75%;
+} */
+
+.application-screenshots {
+    width: 100%;
 }
 
 .project-title {
