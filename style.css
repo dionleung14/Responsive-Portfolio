@@ -36,15 +36,35 @@ body {
     /* display: inline; */
 }
 
+.title-button-container {
+    display: none;
+}
+
+.LI-profile-badge, .LI-simple-link {
+    width: 10%;
+}
+
+.project-title {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    background-color: #a3a3a3;
+    color: white;
+    padding: 4px;
+    /* border-radius: 5px; */
+    /* display: none; */
+}
+
 .thumbnail-label-DCL {
     position: absolute;
-    right: 10px;
-    bottom: 10px;
+    right: 3%;
+    bottom: 3%;
     /* display: flex;
     align-items: center; */
-    color: blue;
-    background-color: gray;
+    color: white;
+    background-color: #a3a3a3;
     /* display: none; */
+    /* overflow-inline: clip; */
     transition: all .9s ease-in-out;
 }
 

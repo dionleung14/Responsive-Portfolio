@@ -1,12 +1,32 @@
-// $(".img-thumbnail-DCL").on("mouseover", function(){
-//     var thumbnailLabel = $(this).next()
-//     thumbnailLabel.css("display", "block")
-// })
+// function showMoreBtn(event){
+//     const thumbnailButton = $(this).next() 
+//     thumbnailButton.css("display", "block")
+// }
 
-// $(".img-thumbnail-DCL").on("mouseleave", function(){
-//     var thumbnailLabel = $(this).next()
-//     thumbnailLabel.css("display", "none")
-// })
+// function hideMoreBtn(event){
+//     const thumbnailButton = $(this).next() 
+//     thumbnailButton.css("display", "none")
+// }
+
+$(document).ready(function(){
+    $("#WelcomeMat").modal("show")
+})
+
+
+// $(".thumbnail-container-DCL").on("mouseenter", showMoreBtn(){
+$(".thumbnail-container-DCL").on("mouseenter", function(){
+    var thumbnailButton = $(this).children(":last")
+    console.log(thumbnailButton)
+    thumbnailButton.css("display", "block")
+})
+
+// $(".thumbnail-container-DCL").on("mouseleave", hideMoreBtn(){
+$(".thumbnail-container-DCL").on("mouseleave", function(){
+    var thumbnailButton = $(this).children(":last")
+    thumbnailButton.css("display", "none")
+})
+
+
 
 // $(document).on("click", ".thumbnail-container-DCL", function(){
 //     var linkTarget = $(this).children().next();
